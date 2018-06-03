@@ -1,0 +1,173 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+}
+.container{
+padding:0;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header{
+	background:url(imd/I6P5MUJ7UKA.jpg) no-repeat 0px 0px;
+	background-size:cover;
+	min-height:650px;
+	position:relative;
+}
+.logo img{
+	position:absolute;
+	left: 39%;
+	top: 39%;
+	width:236px;
+	height:177px;
+}
+.video h3{
+	color:#364356;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+
+}
+.video
+{
+	background:url(imd/pWrD1OInIFY.jpg)no-repeat; 
+	background-size:cover;
+    padding: 70px 0;
+    text-align: center;
+}
+.fotter{
+	background:#364356;
+	min-height:50px;
+	position:relative;
+}
+.fotter p{
+	position:absolute;
+	color:#C4C4C4;
+	text-align:center;
+	margin:0;
+	left:45%;
+	top:40%;
+}
+.top-menu
+{
+	background:#fff;
+}
+.top-menu h4{
+	font-family: 'Raleway', sans-serif;
+	color:#364356;
+	float:left;
+	font-weight:900;
+	margin: 14px 0 0 0;
+}
+.top-menu ul{
+	float:right;
+	margin-bottom:0;
+}
+.top-menu ul li{
+	display:inline-block;
+}
+.top-menu ul li a{
+	text-decoration: none;
+	color: #364356;
+	margin:0px;
+	font-size: 13px;
+	padding: 10px;
+	display: block;
+	font-weight: 600;
+}
+.top-menu ul li a:hover{
+	color:#FF6D6B;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.about{
+	background:	#F0F8FF;
+	padding:20px 0;
+	position:relative;
+}
+.about h3{
+	color:#000080;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;
+}
+.about h4{
+	color:	#008080;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;
+}
+.about p{
+	color:#000080;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;
+}
+.top{
+	background:#FFE4E1;
+	text-align:center;
+}
+.top h3{
+    color:#8B0000;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;	
+}
+table img {
+	width:600px;
+	height:400px;
+}
+table h4 {
+	color:#8B0000;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;
+}
+table p {
+color:#B22222;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing:1px;
+	word-spacing:2px;
+	position:relative;
+	margin:0;
+	font-style: italic;
+}
+.container:before,
+.container:after {
+  display: table;/*Определяет, что элемент является блочной таблицей */
+  content: " ";/*Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.*/
+} 
+.container:after{
+  clear: both;/* запрещает обтекание объекта с обеих сторон, т.е. и слева, и справа*/
+}
+
